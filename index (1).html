@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="E Sai Vihaar - Personal Portfolio. IPM Student at IIM Jammu, Finance & Analytics Enthusiast. Check out my work history, projects, and certifications.">
+    <title>E Sai Vihaar | Personal Portfolio</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="header" id="main-header">
+        <div class="header-container">
+            <a href="#hero" class="logo">
+                <span class="logo-accent">E</span>SV
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#hero" class="nav-link active" id="nav-link-hero">About</a></li>
+                    <li><a href="#skills" class="nav-link" id="nav-link-skills">Skills</a></li>
+                    <li><a href="#projects" class="nav-link" id="nav-link-projects">Projects</a></li>
+                    <li><a href="#experience" class="nav-link" id="nav-link-experience">Experience</a></li>
+                    <li><a href="#education" class="nav-link" id="nav-link-education">Education</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <button class="theme-toggle" id="theme-toggle-btn" aria-label="Toggle light/dark theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <button class="mobile-toggle" id="mobile-toggle-btn" aria-label="Open navigation menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero / About Section -->
+    <section class="hero-section section-padding" id="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <span class="hero-welcome">Welcome to my portfolio</span>
+                <h1 class="hero-title">E Sai Vihaar</h1>
+                <p class="hero-subtitle">IPM Student at IIM Jammu | Finance &amp; Analytics Enthusiast</p>
+                <p class="hero-description">
+                    I am E Sai Vihaar, an undergraduate pursuing the Integrated Program in Management (IPM) at the Indian Institute of Management Jammu. With a strong interest in equity research, valuation, and statistical modeling, I build data-driven simulations and analyze market trends. Combining technical business training with active roles in IIM Jammu's Finance Club and Corporate Communications Committee, I translate complex financial data into clear, strategic narratives.
+                </p>
+                
+                <div class="contact-links">
+                    <!-- LinkedIn Link: Update placeholder in production -->
+                    <a href="https://linkedin.com/in/[YOUR-LINKEDIN-USERNAME]" target="_blank" rel="noopener noreferrer" class="btn btn-primary" id="btn-linkedin">
+                        <i class="fa-brands fa-linkedin"></i> LinkedIn
+                    </a>
+                    <a href="mailto:vihaarenuguru@gmail.com" class="btn btn-secondary" id="btn-email">
+                        <i class="fa-solid fa-envelope"></i> Email
+                    </a>
+                    <!-- WhatsApp Link: Update [YOUR-PHONE-NUMBER] with actual phone (e.g. 919988776655) -->
+                    <a href="https://wa.me/91[YOUR-PHONE-NUMBER]" target="_blank" rel="noopener noreferrer" class="btn btn-tertiary" id="btn-whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i> WhatsApp
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-image-wrapper">
+                <div class="hero-image-card">
+                    <img src="profile.jpg" alt="E Sai Vihaar Profile Photo" class="hero-image">
+                    <div class="image-overlay-border"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills & Certifications Section -->
+    <section class="skills-section section-padding section-alt" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Competencies</span>
+                <h2 class="section-title">Skills &amp; Professional Certifications</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <!-- Skills Grid -->
+            <div class="skills-grid">
+                <!-- Skill Category: Finance & Analytics -->
+                <div class="skill-category-card">
+                    <div class="category-icon-wrapper">
+                        <i class="fa-solid fa-chart-line"></i>
+                    </div>
+                    <h3>Finance &amp; Analytics</h3>
+                    <ul class="skill-list">
+                        <li>Financial Statement Analysis</li>
+                        <li>Equity Valuation &amp; DCF Modeling</li>
+                        <li>Portfolio Management &amp; Asset Allocation</li>
+                        <li>Statistical Simulation &amp; Forecasting</li>
+                    </ul>
+                </div>
+                
+                <!-- Skill Category: Core Tools -->
+                <div class="skill-category-card">
+                    <div class="category-icon-wrapper">
+                        <i class="fa-solid fa-toolbox"></i>
+                    </div>
+                    <h3>Technical Tools</h3>
+                    <ul class="skill-list">
+                        <li>Advanced Microsoft Excel (Spreadsheet Modeling)</li>
+                        <li>Bloomberg Terminal Functions</li>
+                        <li>PowerPoint &amp; Presentation Design</li>
+                        <li>Interactive Business Dashboards</li>
+                    </ul>
+                </div>
+                
+                <!-- Skill Category: Communications -->
+                <div class="skill-category-card">
+                    <div class="category-icon-wrapper">
+                        <i class="fa-solid fa-bullhorn"></i>
+                    </div>
+                    <h3>Communications &amp; Strategy</h3>
+                    <ul class="skill-list">
+                        <li>Content Writing &amp; Caption Editing</li>
+                        <li>Social Media Management &amp; Analytics</li>
+                        <li>Public Relations &amp; Press Releases</li>
+                        <li>Structured Problem Solving (McKinsey Forward)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Certifications Sub-section -->
+            <h3 class="subsection-title">Verified Certifications</h3>
+            <div class="certs-grid">
+                
+                <!-- Bloomberg Market Concepts -->
+                <div class="cert-card">
+                    <div class="cert-badge">BMC</div>
+                    <div class="cert-body">
+                        <h4>Bloomberg Market Concepts (BMC)</h4>
+                        <p class="cert-issuer">Issued by Bloomberg</p>
+                        <p class="cert-details">Gained a strong foundation in macroeconomic indicators, equities, fixed income, currencies, and commodities. Developed practical knowledge of Bloomberg Terminal functions for financial markets.</p>
+                        <a href="Bloomberg Market Concepts Certificate .pdf" target="_blank" class="cert-view-btn">
+                            <i class="fa-solid fa-file-pdf"></i> View Certificate
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Bloomberg Finance Fundamentals -->
+                <div class="cert-card">
+                    <div class="cert-badge">BFF</div>
+                    <div class="cert-body">
+                        <h4>Bloomberg Finance Fundamentals (BFF)</h4>
+                        <p class="cert-issuer">Issued by Bloomberg</p>
+                        <p class="cert-details">Acquired a strong foundation in global financial markets, the role of financial institutions, asset classes, corporate finance, and investment analysis.</p>
+                        <a href="Bloomberg Financial Fundamentals.pdf" target="_blank" class="cert-view-btn">
+                            <i class="fa-solid fa-file-pdf"></i> View Certificate
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Excel Certification -->
+                <div class="cert-card">
+                    <div class="cert-badge">Excel</div>
+                    <div class="cert-body">
+                        <h4>Advanced Microsoft Excel</h4>
+                        <p class="cert-issuer">Professional Training Certification</p>
+                        <p class="cert-details">Covers data analysis, spreadsheet modeling, and reporting. Hands-on application of advanced functions including XLOOKUP, INDEX-MATCH, IF, SUMIFS, and TEXTSPLIT.</p>
+                        <a href="Excel Certification.pdf" target="_blank" class="cert-view-btn">
+                            <i class="fa-solid fa-file-pdf"></i> View Certificate
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Finlatics Equity Markets Analyst -->
+                <div class="cert-card">
+                    <div class="cert-badge">Finlatics</div>
+                    <div class="cert-body">
+                        <h4>Equity Markets Analyst</h4>
+                        <p class="cert-issuer">Finlatics Financial Market Experience Program</p>
+                        <p class="cert-details">
+                            Intensive analysis program.
+                            <strong>Credential ID:</strong> FM-963287c5d018145b
+                        </p>
+                        <div class="cert-actions">
+                            <a href="certificate.pdf" target="_blank" class="cert-view-btn">
+                                <i class="fa-solid fa-file-pdf"></i> View Certificate
+                            </a>
+                            <a href="https://finlatics.com/credentialscheck" target="_blank" rel="noopener noreferrer" class="cert-verify-btn">
+                                <i class="fa-solid fa-square-check"></i> Verify
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects & Innovations Section -->
+    <section class="projects-section section-padding" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Portfolio</span>
+                <h2 class="section-title">Projects &amp; Innovations</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="projects-grid">
+                
+                <!-- Project 1: Jambu Zoo Visitor Flow Simulation -->
+                <div class="project-card">
+                    <div class="project-media">
+                        <div class="project-icon-placeholder">
+                            <i class="fa-solid fa-network-wired"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Jambu Zoo Visitor Flow Simulation</h3>
+                        <p class="project-tagline">Monte Carlo Observational Study</p>
+                        <p class="project-desc">
+                            Designed and executed a visitor behaviour simulation based on 63 physical observation records at Jambu Zoo. Analyzed 9 key demographic, temporal, and behavioural variables to build probability distributions. Generated 200+ simulated visitors using Monte Carlo methods to forecast footfall peaks, eatery demand, and payment processing patterns.
+                        </p>
+                        <div class="project-tech-tags">
+                            <span>Monte Carlo Simulation</span>
+                            <span>Advanced Excel</span>
+                            <span>Probability Distributions</span>
+                            <span>Operational Research</span>
+                        </div>
+                        <a href="Jambu_Zoo_Simulation.pptx.pdf" target="_blank" class="btn btn-link">
+                            <i class="fa-solid fa-file-powerpoint"></i> View Project Slides (PDF)
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2: Finlatics Live Portfolio Project -->
+                <div class="project-card">
+                    <div class="project-media">
+                        <div class="project-icon-placeholder">
+                            <i class="fa-solid fa-money-bill-trend-up"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Finlatics Equity Portfolio Project</h3>
+                        <p class="project-tagline">Live Equity Markets Analyst Role</p>
+                        <p class="project-desc">
+                            Conducted fundamental, technical, and DCF valuation of listed companies to evaluate investment paths. Managed a simulated equity portfolio and recommended stocks based on risk-return metrics. Evaluated Indian FMCG sector dynamics using Porter's Five Forces and performed mutual fund performance analysis.
+                        </p>
+                        <div class="project-tech-tags">
+                            <span>DCF Valuation</span>
+                            <span>Porter's Five Forces</span>
+                            <span>Portfolio Reconstruction</span>
+                            <span>Fundamental Analysis</span>
+                        </div>
+                        <a href="certificate.pdf" target="_blank" class="btn btn-link">
+                            <i class="fa-solid fa-file-pdf"></i> View Role Certificate
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 3: AI Maze Mastery 2.0 (National Runner-up) -->
+                <div class="project-card">
+                    <div class="project-media clickable" id="case-comp-media">
+                        <img src="case_comp.jpg" alt="AI Maze Mastery 2.0 National Runner-up Award Presentation" class="project-image-thumb">
+                        <div class="media-hover-overlay">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i> View Image
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>AI Maze Mastery 2.0</h3>
+                        <p class="project-tagline">National-level Case Competition Runner-Up</p>
+                        <p class="project-desc">
+                            Secured Runner-up position out of numerous participating national teams at IIM Jammu. Built an interactive business dashboard to analyze intricate datasets, identifying core operational bottlenecks and presenting actionable business insights to the corporate jury.
+                        </p>
+                        <div class="project-tech-tags">
+                            <span>Business Intelligence</span>
+                            <span>Interactive Dashboards</span>
+                            <span>Data Analysis</span>
+                            <span>Presentation Skills</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience-section section-padding section-alt" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Timeline</span>
+                <h2 class="section-title">Positions of Responsibility &amp; Experience</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="timeline">
+                
+                <!-- Timeline Item: Finlatics Analyst -->
+                <div class="timeline-item" id="exp-finlatics">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Jan 2026 - Mar 2026</div>
+                    <div class="timeline-content">
+                        <h3>Equity Markets Analyst</h3>
+                        <h4 class="timeline-org">Finlatics (Live Experience Program)</h4>
+                        <ul class="timeline-bullets">
+                            <li>Conducted fundamental, technical, and DCF valuation of listed companies to assess investment opportunities.</li>
+                            <li>Managed a simulated equity portfolio and recommended stocks based on risk-return analysis and market trends.</li>
+                            <li>Completed case projects on Porter's Five Forces (Indian FMCG sector), portfolio reconstruction, and mutual fund performance analysis.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Timeline Item: Corp Comm -->
+                <div class="timeline-item" id="exp-corpcomm">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2025 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Member - Corporate Communications Committee</h3>
+                        <h4 class="timeline-org">IIM Jammu</h4>
+                        <ul class="timeline-bullets">
+                            <li>Managed official communications of IIM Jammu, designing creatives and captions for 40+ events highlighting activities &amp; achievements.</li>
+                            <li>Oversaw and maintained IIM Jammu’s social media handles (LinkedIn, Instagram, X, Facebook, YouTube), driving consistent engagement.</li>
+                            <li>Collaborated with a 40+ member team and school administration to publish press releases, newsletters, and promotional content.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Timeline Item: Finance Club -->
+                <div class="timeline-item" id="exp-finclub">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2025 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Member - Finance Club</h3>
+                        <h4 class="timeline-org">IIM Jammu</h4>
+                        <ul class="timeline-bullets">
+                            <li>Organised 2+ institute-level case competitions focused on equity research and financial modelling, enabling participants to apply valuation frameworks.</li>
+                            <li>Published 12+ weekly market updates analysing equities, macroeconomic indicators, and sectoral trends, enhancing literacy among 350+ students.</li>
+                            <li>Coordinated 3-5 industry interaction sessions per semester with senior finance professionals and academicians.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Timeline Item: McKinsey Forward -->
+                <div class="timeline-item" id="exp-mckinsey">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2025</div>
+                    <div class="timeline-content">
+                        <h3>McKinsey Forward Program Participant</h3>
+                        <h4 class="timeline-org">McKinsey &amp; Company (Global Curriculum)</h4>
+                        <ul class="timeline-bullets">
+                            <li>Built proficiency in structured problem-solving, strategic thinking, communication, collaboration, and adaptability.</li>
+                            <li>Engaged in practical simulation challenges and peer feedback loops focused on leadership and team dynamics.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education-section section-padding" id="education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Education</span>
+                <h2 class="section-title">Academic Journey</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="education-timeline">
+                
+                <!-- Education Item: IIM Jammu -->
+                <div class="edu-card card-highlight">
+                    <div class="edu-year">2025 - 2030</div>
+                    <div class="edu-body">
+                        <h3>IPM (Integrated Program in Management)</h3>
+                        <h4 class="edu-inst">Indian Institute of Management Jammu (IIM Jammu)</h4>
+                        <p class="edu-grade"><strong>CGPA:</strong> Pursuing (First Year)</p>
+                        <p class="edu-details">Rigorous business management training combining foundational social sciences, quantitative analysis, corporate finance, and strategic planning.</p>
+                    </div>
+                </div>
+
+                <!-- Education Item: Class XII -->
+                <div class="edu-card">
+                    <div class="edu-year">2024</div>
+                    <div class="edu-body">
+                        <h3>Class XII (TGBIE Board)</h3>
+                        <h4 class="edu-inst">FIITJEE Junior College, Hyderabad</h4>
+                        <p class="edu-grade"><strong>Score:</strong> 96.00%</p>
+                        <p class="edu-details">Specialized in mathematics, physics, and chemistry with a strong focus on analytical problem-solving and logic.</p>
+                    </div>
+                </div>
+
+                <!-- Education Item: Class X -->
+                <div class="edu-card">
+                    <div class="edu-year">2022</div>
+                    <div class="edu-body">
+                        <h3>Class X (TGBSE Board)</h3>
+                        <h4 class="edu-inst">Kakatiya High School, Gadwal</h4>
+                        <p class="edu-grade"><strong>Score:</strong> 92.15%</p>
+                        <p class="edu-details">Foundational secondary education with high marks across mathematics, sciences, and languages.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p class="copyright">&copy; 2026 E Sai Vihaar. All rights reserved.</p>
+            <p class="footer-design">Designed &amp; Developed with Vanilla HTML, CSS &amp; JS</p>
+            <div class="footer-socials">
+                <a href="https://linkedin.com/in/[YOUR-LINKEDIN-USERNAME]" target="_blank" rel="noopener noreferrer" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="mailto:vihaarenuguru@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://wa.me/91[YOUR-PHONE-NUMBER]" target="_blank" rel="noopener noreferrer" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal for Case Competition Photo -->
+    <div id="lightbox" class="lightbox-modal">
+        <span class="close-btn">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" alt="Enlarged view">
+        <div id="caption" class="lightbox-caption"></div>
+    </div>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
